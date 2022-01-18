@@ -9,6 +9,7 @@ logs
 
 # dependencies
 /node_modules
+/.vscode
 /.pnp
 .pnp.js
 
