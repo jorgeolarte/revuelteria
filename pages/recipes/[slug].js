@@ -11,13 +11,7 @@ export default function Recipe({ recipe, preview }) {
     return <ErrorPage statusCode={404} />;
   }
 
-  return (
-    <>
-      <h1>{recipe.title}</h1>
-      <p>{recipe.content}</p>
-      <ListIngredients ingredients={recipe.ingredient} />
-    </>
-  );
+  return <h1>Hello world</h1>;
 }
 
 export async function getStaticProps({ params, preview = false }) {
