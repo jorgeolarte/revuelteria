@@ -14,7 +14,7 @@
 
 # production
 /build
-secrets.json
+/secrets.json
 
 # misc
 .DS_Store
