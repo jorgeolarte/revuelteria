@@ -1,34 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Logo](https://raw.githubusercontent.com/jorgeolarte/larevuelteria/master/src/img/-logo-la-revuelteria.png?token=GHSAT0AAAAAABQSS5KBD3E63GMMQ5XFYKXKYPHALNA)
 
-## Getting Started
+- _Entregamos las frutas y verduras en la puerta de tu casa_
+- _Lavamos y limpiamos todas las frutas y verduras como Dios manda._
+- _Pelamos y almacenamos aquellas frutas y verduras que se dañan con solo mirarlas, las cortamos y almacenamos para maximizar su duración._
+- _Te prestamos los táperes, los regresas cuando te entreguemos tu siguiente pedido._
 
-First, run the development server:
+# La Revueltería
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Startup que facilita la compra de frutas y verduras a través de su página web.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+**Client:** React, NextJS, TailwindCSS, Formik, Yup
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+**Server:** Vercel, NextJS API, Firebase
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Características
 
-## Learn More
+- Sendinblue integration
+- Firebase auth
+- Skeleton preview
+- Responsive design
 
-To learn more about Next.js, take a look at the following resources:
+## Variables de entorno
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Para correr este proyecto tendrás que agregar tus claves de configuración en el archivo env.local.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+`FIREBASE_API_KEY`
 
-## Deploy on Vercel
+`FIREBASE_AUTH_DOMAIN`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+`FIREBASE_PROJECT_ID`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+`FIREBASE_STORAGE_BUCKET`
+
+`FIREBASE_MESSAGING_SENDER_ID`
+
+`FIREBASE_APP_ID`
+
+`FIREBASE_MEASUREMENT_ID`
+
+`NEXT_PUBLIC_SENDINBLUE_API_KEY`
+
+## 🔗 Encuentranos en redes sociales
+
+[![instagram](https://img.shields.io/badge/instagram-dd2a7b?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/larevuelteria.co/)
+[![facebook](https://img.shields.io/badge/facebook-3b5998?style=flat-square&logo=facebook&logoColor=white)](https://www.facebook.com/revuelteria)
+[![linkedin](https://img.shields.io/badge/linkedin-0077b5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/la-revuelteria)
