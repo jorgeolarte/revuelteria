@@ -1,7 +1,21 @@
-import '../styles/globals.css'
+// import NotificationState from "@/lib/notification";
+// import ModalState from "@/lib/modal";
+import { AuthProvider } from "@/lib/auth";
+import UIState from "@/lib/UI";
+import "../styles/globals.css";
+// import { Notification } from "@/components/notifications";
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+export default function MyApp({ Component, pageProps }) {
+  return (
+    <AuthProvider>
+      {/* <NotificationState> */}
+      {/* <ModalState> */}
+      <UIState>
+        <Component {...pageProps} />
+      </UIState>
+      {/* <Notification /> */}
+      {/* </ModalState> */}
+      {/* </NotificationState> */}
+    </AuthProvider>
+  );
 }
-
-export default MyApp

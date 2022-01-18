@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@/lib/*": [
+                "lib/*"
+            ],
+            "@/components/*": [
+                "components/*"
+            ],
+            "@/reducers/*": [
+                "reducers/*"
+            ],
+        }
+    }
+}
