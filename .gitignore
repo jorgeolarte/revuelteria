@@ -14,6 +14,7 @@
 
 # production
 /build
+secrets.json
 
 # misc
 .DS_Store
@@ -29,7 +30,7 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
-secrets.json
+
 
 # vercel
 .vercel
