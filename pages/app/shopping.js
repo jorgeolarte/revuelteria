@@ -3,7 +3,7 @@ import { Dashboard } from "@/components/layouts";
 
 export default function Index() {
   return (
-    <Dashboard>
+    <>
       <Head>
         <meta
           name='viewport'
@@ -23,6 +23,6 @@ export default function Index() {
           src='https://embed.typeform.com/embed.js'
         ></script>
       </div>
-    </Dashboard>
+    </>
   );
 }

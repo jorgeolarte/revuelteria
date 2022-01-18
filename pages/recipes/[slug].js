@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import ErrorPage from "next/error";
-import Layout from "@/components/layout";
+import Layout from "@/components/layouts";
 import ListIngredients from "@/components/list-ingredients";
 import { getAllRecipesWithSlug, getRecipeAndMoreRecipes } from "@/lib/api";
 
@@ -12,11 +12,11 @@ export default function Recipe({ recipe, preview }) {
   }
 
   return (
-    <Layout preview={preview}>
+    <>
       <h1>{recipe.title}</h1>
       <p>{recipe.content}</p>
       <ListIngredients ingredients={recipe.ingredient} />
-    </Layout>
+    </>
   );
 }
 
