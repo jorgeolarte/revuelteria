@@ -1,4 +1,4 @@
-![Logo](https://raw.githubusercontent.com/jorgeolarte/larevuelteria/master/src/img/-logo-la-revuelteria.png?token=GHSAT0AAAAAABQSS5KBD3E63GMMQ5XFYKXKYPHALNA)
+![Logo](https://raw.githubusercontent.com/jorgeolarte/revuelteria/main/public/images/logo-la-revuelteria.png)
 
 Startup que facilita la compra de frutas y verduras a través de su página web.
 
@@ -6,6 +6,8 @@ Startup que facilita la compra de frutas y verduras a través de su página web.
 - _Lavamos y limpiamos todas las frutas y verduras como Dios manda._
 - _Pelamos y almacenamos aquellas frutas y verduras que se dañan con solo mirarlas, las cortamos y almacenamos para maximizar su duración._
 - _Te prestamos los táperes, los regresas cuando te entreguemos tu siguiente pedido._
+
+Visita nuestra página (https://revuelteria.vercel.app/)
 
 ## Tech Stack
 
